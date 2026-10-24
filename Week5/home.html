@@ -9,18 +9,56 @@
 
     <style>
 
+     /* - Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body{
-            background-color:#f2f4fa;
-            font-family:Arial,sans-serif;
+            background-color: #f2f4fa;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        /*- ID Selector */
+        #hero{
+            background-color: royalblue;
+            color: white;
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /*- Element Selector */
+        h1{
+            font-size: 40px;
+        }
+
+        /* - Class Selector */
+        .card{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
         }
 
     </style>
 
 </head>
 
-
-</head>
 <body>
+     <div id="hero">
+        <h1>Tech Club</h1>
+        <p>Learn. Code. Grow.</p>
+    </div>
+
+    <div class="card">
+        <h2>Upcoming Events</h2>
+        <p>HTML Workshop</p>
+    </div>
     
 </body>
 </html>
