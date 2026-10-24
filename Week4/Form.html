@@ -12,120 +12,108 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #0077cc;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        .radio-group,
+        .checkbox-group {
+            margin-top: 10px;
+        }
+
+        .radio-group input,
+        .checkbox-group input {
+            width: auto;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #0077cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
 
+    <header>
+        <h1>Tech Club</h1>
+        <p>Welcome to the Official Tech Club Page</p>
+    </header>
 
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="register.html">Register</a>
+        <a href="contact.html">Contact</a>
+        <a href="Form.html">Form</a>
+    </nav>
 
-    <h2>Tech Club Events</h2>
-
-    <table border="1" cellpadding="10">
-
-        <thead>
-            <tr>
-                <th>Event ID</th>
-                <th>Event Name</th>
-                <th>Date</th>
-                <th>Venue</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>101</td>
-                <td>Web Development Workshop</td>
-                <td>10-Nov-2026</td>
-                <td>Computer Lab</td>
-            </tr>
-
-            <tr>
-                <td>102</td>
-                <td>AI Seminar</td>
-                <td>15-Nov-2026</td>
-                <td>Seminar Hall</td>
-            </tr>
-
-            <tr>
-                <td>103</td>
-                <td>Hackathon</td>
-                <td>20-Nov-2026</td>
-                <td>Auditorium</td>
-            </tr>
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <td colspan="4">Total Events: 3</td>
-            </tr>
-        </tfoot>
-
-    </table>
-
-    <h2>Registration Form</h2>
-
-    <form>
-
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password"><br><br>
-
-        
-         <label for="dob">Date of Birth:</label>
-         <label for="dob">Date of Birth:</label>
-         <input type="date" id="dob" name="dob"><br><br>
-
-         <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone"><br><br>
-
-         <label>Gender:</label><br>
-
-        <input type="radio" id="male" name="gender" value="Male">
-        <label for="male">Male</label>
-
-        <input type="radio" id="female" name="gender" value="Female">
-        <label for="female">Female</label>
-
-        <br><br>
-
-        <label>Skills:</label><br>
-
-        <input type="checkbox" id="html" name="skills" value="HTML">
-        <label for="html">HTML</label>
-
-        <input type="checkbox" id="css" name="skills" value="CSS">
-        <label for="css">CSS</label>
-
-        <input type="checkbox" id="js" name="skills" value="JavaScript">
-        <label for="js">JavaScript</label>
-
-        <br><br>
-
-        <label for="course">Select Course:</label>
-        <select id="course" name="course">
-            <option value="">--Select Course--</option>
-            <option value="BCA">BCA</option>
-            <option value="BTech">B.Tech</option>
-            <option value="MCA">MCA</option>
-            <option value="MTech">M.Tech</option>
-        </select>
-
-        <br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" cols="30"></textarea>
-
-        <br><br>
-
-        <input type="submit" value="Submit">
-
-    </form>
-    
-    
-
+</head>
 </body>
 </html>
