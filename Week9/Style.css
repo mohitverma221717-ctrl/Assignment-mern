@@ -1,40 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar */
+
 header {
-    background: #102248;
+    background: #12224b;
     color: white;
     text-align: center;
     padding: 15px;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+    margin-top: 10px;
 }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+/* Hero */
+
+.hero {
+    background: #3458e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+/* Features */
 
 .features {
-    display: grid;
-    grid-template-columns: 1fr;
+    padding: 15px;
 }
 
-
-/* Tablet */
-
-@media (min-width:768px) {
-    .features {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-
-/* Desktop */
-
-@media (min-width:1024px) {
-    .features {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+.card {
+    background: #e5e8f1;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
