@@ -15,17 +15,17 @@ header {
     background: #12224b;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 1rem;
 }
 
 nav {
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 0.625rem;
 }
 
 
@@ -35,11 +35,12 @@ nav a {
     background: #3458e6;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .hero img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     margin-top: 15px;
     border-radius: 10px;
 }
@@ -48,13 +49,11 @@ nav a {
 /* Features */
 
 .features {
-    padding: 15px;
+    padding: 1rem;
 }
 
 .card {
-    background: #e5e8f1;
-    text-align: center;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    padding: 1rem;
+    border-radius: 0.625rem;
+    margin-bottom: 1rem;
 }
