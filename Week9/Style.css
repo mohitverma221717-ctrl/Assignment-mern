@@ -1,0 +1,40 @@
+header {
+    background: #102248;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/* Tablet */
+
+@media (min-width:768px) {
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Desktop */
+
+@media (min-width:1024px) {
+    .features {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
